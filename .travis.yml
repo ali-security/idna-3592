@@ -9,6 +9,7 @@ python:
   - "pypy"
   - "pypy3"
 install:
+  - pip list
   - pip install .
 script:
   - python -m unittest discover
