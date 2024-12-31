@@ -9,6 +9,8 @@ python:
   - "pypy"
   - "pypy3"
 install:
+  - pip install setuptools==68.0.0
+  - pip install wheel==0.42.0
   - pip list
   - pip install .
 script:
